@@ -1,2 +1,7 @@
-# Tharwati
-Tharwati App
+# تطبيق ثروتي (Tharwati) للإدارة المالية الشخصية
+
+## خطوات الرفع على Vercel بدون أي أخطاء:
+1. فك الضغط عن مجلد `tharwati-project.zip`.
+2. ارفع جميع الملفات الموجودة بداخل المجلد (تأكد أن `package.json` و `vercel.json` و `index.html` ومجلد `src` في الواجهة الرئيسية للمستودع على GitHub).
+3. اربط المستودع مع منصة **Vercel** واضغط **Deploy**.
+4. لتفعيل المزامنة بين أجهزتك عبر Gmail، أضف متغيرات البيئة الخاصة بمشروع Firebase (`VITE_FIREBASE_API_KEY` إلخ) في إعدادات Vercel.
